@@ -19,14 +19,14 @@ module.exports = {
         extensions: ['', '.js', '.jsx']
     },
     output: {
-        path: __dirname + '/dist/',
+        path: __dirname + '/public/',
         publicPath: '/',
         filename: 'komik.js',
         library: 'Komik',
         libraryTarget: 'umd'
     },
     devServer: {
-        contentBase: __dirname + '/dist/'
+        contentBase: __dirname + '/public/'
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin()

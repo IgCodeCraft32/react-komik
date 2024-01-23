@@ -38,12 +38,12 @@ Don't forget to import React, ReactDOM, and use Babel/JSX transformer with ES201
 
 ## UMD Browser
 
-Download or include the [komik.js](http://sonnylazuardi.github.io/react-komik/dist/komik.js) file to your HTML. 
+Download or include the [komik.js](http://sonnylazuardi.github.io/react-komik/public/komik.js) file to your HTML. 
 Don't forget to include React, ReactDOM and JSX transformer/Babel.
 Please use NPM modules instead for production.
 
 ```html
-	<script src="http://sonnylazuardi.github.io/react-komik/dist/komik.js"></script>
+	<script src="http://sonnylazuardi.github.io/react-komik/public/komik.js"></script>
 	<script>
 		let { Strip, Panel, Character, Balloon } = Komik;
 
